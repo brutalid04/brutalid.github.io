@@ -1,0 +1,124 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+}
+}
+.fCountainer{
+    display: flex;
+    width: 100%;
+    align-items: 100%;
+    background-color: #002502;
+    justify-content: center;
+}
+.wrapper{
+    height: 22px;
+    display: flex;
+    align-items: 100%;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #00242F;
+    font-size: 20px:
+    align-items: center;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.7);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation>li{
+    list-style-type: none;
+    padding: 15px;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    color: #80FF00;
+}
+.awal{
+    font-weight: 500;
+}
+.ahir{
+    padding-left: 4px;
+    font-weight: 400;
+    color: #FC00FF;
+}
+.navigation>li>a{
+    color: #00E1FF;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.navigation>li>a:hover{
+    color: #00C3FF;
+    transition: all .3s ease-in-out;
+}
+.active{
+    background-color: #FC00FF;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+.active:hover{
+    color: white !important;
+}
+.img{
+    align-items: center;
+    size: 20px;
+}
+.nama{
+    text-align: center;
+}
+.akhir{
+    font-size: 20px;
+    padding-left: 6px;
+    font-weight: 600;
+    color: #1F00FF;
+    text-shadow: 3 2px 15px 3 rgba(1, 1, 1, 0.7);
+}
+.parag{
+    padding: 30px;
+    text-align: center;
+}
+.paragraf{
+    text-align: center;
+    font-size: 15px;
+    padding: 12px;
+    text-transform: capitalize;
+}
+.social-media-icon {
+    padding: 10px;
+    background: #FF8800;
+    border-radius: 4px;
+    color: #00FFBF;
+    text-decoration: none;
+}
+
+.social-media-icon:hover{
+    background: #F400FF!important;
+    color: #222!important;
+}
+.poto{
+    display: flex;
+    margin: 0px auto;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+.foto{
+    padding: 15px;
+}
+.musik{
+    padding: 15px;
+    text-align: center;
+}
+.mussik{
+    padding: 20px;
+    width: 250px;
+    height: 30px;
+}
